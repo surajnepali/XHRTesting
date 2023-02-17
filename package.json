@@ -1,0 +1,23 @@
+{
+  "name": "httpapitesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajnepali/HTTPapiTesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajnepali/HTTPapiTesting/issues"
+  },
+  "homepage": "https://github.com/surajnepali/HTTPapiTesting#readme",
+  "devDependencies": {
+    "cypress": "^12.5.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
