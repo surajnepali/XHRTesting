@@ -26,7 +26,7 @@ describe('Ecommerce API Testing', () => {
               method: 'POST',
               url: Cypress.env('api_url_admin') + '/category/' + categoryName + '/head-category/',
               body: {
-                name: 'head category',
+                name: 'men',
               },
             }).then((response) => {
               expect(response.status).to.eq(201);
